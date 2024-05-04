@@ -1,0 +1,156 @@
+/* VERSÃO DE TABLET */
+
+@media (max-width: 1200px){
+
+    body{
+        background-image: url(../../images/mobile_desktop.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(103,75,175);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .header{
+        margin-right: 550px;
+        margin-bottom: 100px;
+    }
+
+    .header img{
+        width: 260px;
+        height: 100px;
+    }
+
+    .image{
+        max-width: 100%;
+        margin: auto 60px;
+    }
+
+    .text{
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        margin-top: 40px;
+        gap: 30px;
+    }
+
+    .text .description{
+        text-align: center;
+    }
+
+    .text .register{
+        width: 240px;
+        height: 40px;
+    }
+
+    footer, nav, ul {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    li {
+       margin-top: 70px;
+    }
+
+}
+
+/* VERSÃO MOBILE */
+
+@media(max-width: 720px){
+
+  .header{
+    margin-right: 120px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+
+  .header img{
+    width: 160px;
+    height: 50px;
+   }
+
+  .image img{
+    width: 320px;
+    margin-top: 20px;
+   }
+
+   .text{
+    width: 320px;
+    text-align: center;
+    font-size: 0.9rem;
+    gap:1px;
+    margin-top: 15px;
+   }
+
+   .title{
+    font-size: 1.5rem;
+   }
+
+   .text h1{
+    width: 360px;
+   }
+
+   .text strong{
+    width: 320px;
+    margin-left: 10px;
+   }
+
+   .text p{
+    width: 320px;
+    text-align: justify;
+   }
+
+   li{
+    border: 1px solid white;
+    width: 27px;
+    height: 27px;
+    margin-top: 50px;
+   }
+
+   li img{
+    width: 24px;
+    height: 24px;
+   }
+
+}
+
+/* VERSÃO PARA TELAS DE MONITORES MAIORES */
+
+@media (min-width: 1440px){
+
+    body{
+        margin: none;
+    }
+
+    .header{
+        margin-top: 100px;
+    }
+
+    section{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 2.5rem;
+    }
+
+    .text{
+        margin-top: 40px;
+        font-size: 1.2rem;
+        gap: 10px;
+    }
+
+    footer, nav, ul{
+        gap: 15px;
+        margin-top: 45px;
+    }
+
+}
